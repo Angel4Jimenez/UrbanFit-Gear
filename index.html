@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrbanFit Gear - Inicio</title>
+  <link rel="icon" type="image/png" href="Imagenes/Logo.png">
+  <link rel="stylesheet" href="styles.css">
+   <link rel="icon" href="Imagenes/Logo.png" type="image/x-icon">
+</head>
+<body>
+  <!-- ================= HEADER ================= -->
+  <header>
+    <div class="Logo">
+      <img src="Imagenes/Logo.png" alt="Logo UrbanFit Gear" width="50"> <!-- 💡 Logo principal -->
+      <h1>UrbanFit Gear</h1>
+    </div>
+    <nav>
+  <ul class="nav-links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="productos.html">Productos</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+  <!-- 🔽 Agrega esto -->
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</nav>
+
+  </header>
+
+  <!-- ================= BANNER ================= -->
+  <section class="banner">
+    <!-- 💡 Aquí agregas tu imagen de fondo -->
+    <img src="Imagenes/banner.png" alt="banner UrbanFit Gear" class="banner-bg">
+    <div class="banner-text">
+      <h2>Estilo Unico, Estilo Urbano</h2>
+      <p>Ropa deportiva premium Para las personas que esten dispuestas a darlo todo.</p>
+      <a href="productos.html" class="btn">Ver Productos</a>
+    </div>
+  </section>
+
+  <!-- ================= SOBRE NOSOTROS ================= -->
+  <section id="about" class="about">
+    <h2>Sobre Nosotros</h2>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Quiénes Somos</h3>
+        <p>En UrbanFit Gear unimos el fitness y la moda urbana con ropa y accesorios que inspiran movimiento y estilo.</p>
+      </div>
+      <div class="about-card">
+        <h3>Misión</h3>
+        <p>Diseñar ropa deportiva urbana que motive, acompañe y exprese la identidad de cada persona.</p>
+      </div>
+      <div class="about-card">
+        <h3>Visión</h3>
+        <p>Ser la marca referente en moda fitness urbana, destacando por innovación y autenticidad.</p>
+      </div>
+      <div class="about-card">
+        <h3>Valores</h3>
+        <p>Innovación, Autenticidad, Comunidad, Calidad, Pasión</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <p><strong>UrbanFit Gear</strong></p>
+        <p>Ciudad de Guatemala</p>
+        <p>Correo: urbanfitgear@gmail.com</p>
+        <p>Telefono: +502 2154-7531</p>
+      </div>
+      <div class="footer-Logo">
+        <img src="Imagenes/Logo.png" alt="Logo Footer" width="60"> <!-- 💡 Logo en el footer -->
+      </div>
+    </div>
+    <p class="copy">&copy; 2025 UrbanFit Gear - Todos los derechos reservados</p>
+  </footer>
+  <script>
+  function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>
+
